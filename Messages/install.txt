@@ -1,0 +1,12 @@
+Wordpress Gutenberg Blocks Autocomplete
+=======================================
+
+Thank you for downloading the Wordpress Gutenberg Blocks Autocompletion.
+This is very much a work in progress as I try to figure out the best way to implement a few of them.
+I am also assuming that you are using the default styling for each class that associates to a style.
+
+This works under the HTML syntax.
+
+You can see an updated list of all current usable blocks on the wiki page at: https://github.com/Skullmonkey/Wordpress-Gutenberg-Blocks-Autocomplete/wiki/Autocompletions-List
+
+If you see anything missing, incorrect, or would like to contribute, please let me know via GitHub issues: https://github.com/Skullmonkey/Wordpress-Gutenberg-Blocks-Autocomplete/issues
