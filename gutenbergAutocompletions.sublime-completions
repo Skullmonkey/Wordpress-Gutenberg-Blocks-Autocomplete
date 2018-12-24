@@ -1,0 +1,39 @@
+{
+  "scope": "text.html",
+
+  "completions":
+    [
+      { "trigger": "wpparagraph", "contents": "<!-- wp:paragraph -->\n<p>$0</p>\n<!-- wp:paragraph -->" },
+      { "trigger": "wppara", "contents": "<!-- wp:paragraph -->\n<p>$0</p>\n<!-- wp:paragraph -->" },
+      { "trigger": "wpp", "contents": "<!-- wp:paragraph -->\n<p>$0</p>\n<!-- wp:paragraph -->" },
+      { "trigger": "wpheader", "contents": "<!-- wp:heading {\"level\":${1:1-6}} -->\n<h${1:1-6}>$0</h${1:1-6}>\n<!-- /wp:heading -->" },
+      { "trigger": "wph", "contents": "<!-- wp:heading {\"level\":${1:1-6}} -->\n<h${1:1-6}>$0</h${1:1-6}>\n<!-- /wp:heading -->" },
+      { "trigger": "wphtml", "contents": "<!-- wp:html -->\n$0\n<!-- /wp:html -->" },
+      { "trigger": "wpul", "contents": "<!-- wp:list -->\n<ul>\n\t<li>$0</li>\n</ul>\n<!-- /wp:list -->" },
+      { "trigger": "wpol", "contents": "<!-- wp:list {\"ordered\":true} -->\n<ol>\n\t<li>$0</li>\n</ol>\n<!-- /wp:list -->" },
+      { "trigger": "wpdl", "contents": "<!-- wp:html -->\n<dl>\n\t<dd>$1</dd>\n\t<dt>$0</dt>\n</dl>\n<!-- /wp:html -->" },
+      { "trigger": "wpq", "contents": "<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\">\n\t<p>$1</p>\n\t<cite>$0</cite>\n</blockquote>\n<!-- /wp:quote -->" },
+      { "trigger": "wpquote", "contents": "<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\">\n\t<p>$1</p>\n\t<cite>$0</cite>\n</blockquote>\n<!-- /wp:quote -->" },
+      { "trigger": "wpcode", "contents": "<!-- wp:code -->\n<pre class=\"wp-block-code\">\n\t<code>$0</code>\n</pre>\n<!-- /wp:code -->"},
+      { "trigger": "wppre", "contents": "<!-- wp:preformatted -->\n<pre class=\"wp-block-preformatted\">\n\t<code>$0</code>\n</pre>\n<!-- /wp:preformatted -->"},
+      { "trigger": "wppullquote", "contents": "<!-- wp:pullquote -->\n<figure class=\"wp-block-pullquote\">\n\t<blockquote>\n\t\t<p>$1</p>\n\t\t<cite>$0</cite>\n\t</blockquote>\n</figure>\n<!-- /wp:pullquote -->"},
+      { "trigger": "wppq", "contents": "<!-- wp:pullquote -->\n<figure class=\"wp-block-pullquote\">\n\t<blockquote>\n\t\t<p>$1</p>\n\t\t<cite>$0</cite>\n\t</blockquote>\n</figure>\n<!-- /wp:pullquote -->"},
+      { "trigger": "wptable", "contents": "<!-- wp:table -->\n<table class=\"wp-block-table\">\n\t${0:Your normal table stuff here}\n</table>\n<!-- /wp:table -->"},
+      { "trigger": "wpt", "contents": "<!-- wp:table -->\n<table class=\"wp-block-table\">\n\t${0:Your normal table stuff here}\n</table>\n<!-- /wp:table -->"},
+      { "trigger": "wpverse", "contents": "<!-- wp:verse -->\n<pre class=\"wp-block-verse\">$0</pre>\n<!-- /wp:verse -->"},
+      { "trigger": "wpbutton", "contents": "<!-- wp:button -->\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link\">${0:link}</a></div>\n<!-- /wp:button -->"},
+      { "trigger": "wpmore", "contents": "<!-- wp:more -->\n<!-- more -->\n<!-- /wp:more -->"},
+      { "trigger": "wppagebreak", "contents": "<!-- wp:nextpage -->\n<!-- nextpage -->\n<!-- /wp:nextpage -->"},
+      { "trigger": "wppb", "contents": "<!-- wp:nextpage -->\n<!-- nextpage -->\n<!-- /wp:nextpage -->"},
+      { "trigger": "wppage", "contents": "<!-- wp:nextpage -->\n<!-- nextpage -->\n<!-- /wp:nextpage -->"},
+      { "trigger": "wpseparator", "contents": "<!-- wp:separator -->\n<hr class=\"wp-block-separator\"/>\n<!-- /wp:separator -->"},
+      { "trigger": "wphr", "contents": "<!-- wp:nextpage -->\n<hr class=\"wp-block-separator\"/>\n<!-- /wp:nextpage -->"},
+      { "trigger": "wpspacer", "contents": "<!-- wp:nextpage -->\n<div style=\"height:${0:100}px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:nextpage -->"},
+      { "trigger": "wparchives", "contents": "<!-- wp:archives /-->"},
+      { "trigger": "wpcategories", "contents": "<!-- wp:categories /-->"},
+      { "trigger": "wpcategories", "contents": "<!-- wp:categories /-->"},
+      { "trigger": "wplatestComments", "contents": "<!-- wp:latest-comments /-->"},
+      { "trigger": "wplatestPosts", "contents": "<!-- wp:latest-posts /-->"},
+
+    ]
+}
