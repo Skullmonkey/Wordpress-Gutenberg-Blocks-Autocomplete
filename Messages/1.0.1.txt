@@ -1,0 +1,17 @@
+Wordpress Gutenberg Blocks Autocomplete
+=======================================
+
+1.0.1
+-Fixed the "Paragraph" block not closing properly.
+-Added new lines at the end of each block to mimic what WordPress does. Ex:
+
+Before:
+<!-- /wp:paragraph --><!-- wp:paragraph -->
+
+After:
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Issues:
+https://github.com/Skullmonkey/Wordpress-Gutenberg-Blocks-Autocomplete/issues
